@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="container">
+            <div id="nav-left">
+                <h1>Network</h1>
+            </div>
+        </div>
+    </header>
+    <h1 id=your_feed>Your Feed</h1>
+    <div id="main-container">
+        <div id="left-block">
+            <div id="id-block">
+                <img src="./icons/user-circle.png" alt="">
+                <a href="">Add an avatar</a>
+                <h2>James Doe</h2>
+            </div>
+        </div>
+        <div id="right-block">
+            <div class="your_feed_boxes">
+                <div class="top_of_box">
+                    <h2>Neil M</h2>
+                    <p><span id="neilLikes">9</span> likes</p>
+                    <button onclick= "increaseNeilLikes()">Like</button>
+                </div>
+                <p>I just set up this new discord bot, let me know what you all think. <a href="https://top.gg/bot/memes">link</a></p>
+            </div>
+            <div class="your_feed_boxes">
+                <div class="top_of_box">
+                    <h2>Nichole K</h2>
+                    <p><span id="nicholeLikes">12</span> likes</p>
+                    <button onclick= "increaseNicholeLikes()">Like</button>
+                </div>
+                <p>Just finished my <a href="https://questionablecontent.net/">next comic</a>, check it out.</p>
+            </div>
+            <div class="your_feed_boxes">
+                <div class="top_of_box">
+                    <h2>Jim R</h2>
+                    <p><span id="jimLikes">9</span> likes</p>
+                    <button onclick= "increaseJimLikes()">Like</button>
+                </div>
+                <p>I can't stop listening to the <a href="https://open.spotify.com/album/5MbfULVKirwaOOlA58Ja9J?si=H682Dr_OSwexKjduWatwRw&dl_branch=1">new album</a>. Who else is liking it?</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
